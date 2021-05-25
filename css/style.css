@@ -1,0 +1,22 @@
+#main-doc #navbar {
+  position: fixed;
+  width: 180px;
+  left: 0;
+  top: 0;
+}
+
+#main-doc .main-section {
+  margin-left: 200px;
+}
+
+@media (max-width: 300px) {
+  #main-doc #navbar {
+    position: static;
+    width: initial;
+    background: red;
+  }
+  #main-doc .main-section {
+    margin-left: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
